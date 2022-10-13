@@ -68,4 +68,6 @@ body {
 }
 
 input::placeholder {
+  color: red;
+  font-size: 30px;
 }

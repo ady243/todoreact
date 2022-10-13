@@ -58,7 +58,7 @@ body {
 }
 
 .button_add:hover {
-  background-color: red;
+  background-color: #f34d00;
 }
 
 .footer_title {
@@ -68,6 +68,6 @@ body {
 }
 
 input::placeholder {
-  color: red;
+  color: black;
   font-size: 30px;
 }

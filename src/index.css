@@ -72,3 +72,12 @@ input::placeholder {
   color: black;
   font-size: 30px;
 }
+
+.todo_list {
+  text-decoration: none;
+  list-style: decimal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-display: inherit;
+  text-align: center;
+  font-display: inherit;
+}

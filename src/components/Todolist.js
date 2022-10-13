@@ -3,16 +3,16 @@ import React from "react";
 const Todolist = ({ todos, setTodos }) => {
   return (
     <div>
-      {todos.map((todo) => {
-        <li className="list" key={todo.id}>
+      {todos.map((todo) => (
+        <li className="todo_list" key={todo.id}>
           <input
             type="text"
             value={todo.title}
-            className="todo"
+            className="result"
             onChange={(event) => event.preventDefault()}
           />
-        </li>;
-      })}
+        </li>
+      ))}
     </div>
   );
 };

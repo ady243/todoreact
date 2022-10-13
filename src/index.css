@@ -1,3 +1,7 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 body {
   background: linear-gradient(
     -45deg,
@@ -73,11 +77,70 @@ input::placeholder {
   font-size: 30px;
 }
 
-.todo_list {
-  text-decoration: none;
-  list-style: decimal;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-display: inherit;
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  color: rgb(187, 167, 167);
+  background-color: black;
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+
+.button-complete {
+  text-decoration: solid;
+  text-decoration-line: line-throug;
+  background-color: blue;
+  font-size: 50px;
+}
+
+.button-delete {
+  text-decoration: solid;
+  text-decoration-line: line-throug;
+  text-decoration: black;
+  background-color: red;
+  font-size: 50px;
+}
+.button-edit {
+  text-decoration: solid;
+  text-decoration-line: line-throug;
+  text-decoration: black;
+  background-color: #ff7c11;
+  font-size: 50px;
+}
+
+.complete {
+  text-decoration: solid;
+  text-decoration-line: line-throug;
+  text-decoration: black;
+}
+
+.list {
+  width: 200px;
+  margin-left: 280px;
   text-align: center;
-  font-display: inherit;
+  font-size: 10px;
+  height: 100px;
+  background-color: #f3f3f3;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: disc;
+  display: flex;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: none;
+}
+
+.result {
+  background-color: aliceblue;
+  font-size: 20px;
 }

@@ -17,7 +17,10 @@ const App = () => {
       <div>
         <Todolist todos={todos} setTodos={setTodos} />
       </div>
-      <div className="footer"> By Ady</div>
+      <div className="footer">
+        {" "}
+        <h2 className="footer_title">By_@_Ady</h2>
+      </div>
     </div>
   );
 };

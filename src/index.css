@@ -8,7 +8,7 @@ body {
     #ffa260,
     #cfa473
   );
-  background-size: 400% 400%;
+  background-size: 500% 400%;
   animation: gradient 5s ease infinite;
   height: 100vh;
 }
@@ -24,55 +24,45 @@ body {
     background-position: 0% 50%;
   }
 }
+
 .container {
   background-color: #fff;
-  border-radius: 10px;
-  position: center;
+  border-radius: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  overflow: hidden;
-  width: 600px;
-  height: 100%;
-  width: 30%;
-  margin-top: 5%;
-  margin-left: 35%;
-  max-width: 100%;
-  min-height: 480px;
+  margin: 35px;
+  height: 2000px;
 }
 
 .titre {
-  margin-top: 5px;
-  margin-left: 32%;
+  text-align: center;
   margin-bottom: auto;
-  font-size: xx-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .todo_in {
   margin: 15%;
-  border-radius: 8px;
-  margin-left: 15%;
-  width: 40%;
-  height: 25px;
+  padding-left: 5px;
+  border-radius: 20px;
+  margin-left: 20%;
+  width: 45%;
+  height: 90px;
   border-color: crimson;
   box-shadow: #161616;
-  border-style: calc(20 * 3);
 }
 .button_add {
-  border-color: red;
-  border-radius: 5px;
-  width: 60px;
-  height: 30px;
+  border-radius: 20px;
+  padding-right: 5px;
+  border: solid 1px crimson;
+  width: 105px;
+  height: 110px;
 }
 
-.footer {
-  position: absolute;
-  justify-content: center;
-  margin-left: 13%;
-  margin: 235px;
-  margin-left: 13%;
-  border-color: antiquewhite;
-  background-color: antiquewhite;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-style: var(#77043a);
+.button_add:hover {
+  background-color: red;
+}
+
+.footer_title {
+  text-align: center;
+  margin: 1560px;
+  margin-left: 420px;
 }

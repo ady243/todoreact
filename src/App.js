@@ -1,13 +1,15 @@
-import "./App.css";
+import React, { useState } from "react";
+import Form from "./components/Form";
 
-function App() {
+const App = () => {
+  const [input, setInput] = useState("");
   return (
-    <div>
-      <header>
-        <h1>TODO list</h1>
-      </header>
+    <div class="container">
+      <h1 className="titre">Todo List</h1>
+
+      <Form />
     </div>
   );
-}
+};
 
 export default App;

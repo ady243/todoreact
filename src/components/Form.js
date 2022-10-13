@@ -23,7 +23,7 @@ const Form = ({ input, setInput, todos, setTodos }) => {
         onChange={onInputChange}
       />
       <button className="button_add" type="submit">
-        Add
+        <h1>Add</h1>
       </button>
     </form>
   );

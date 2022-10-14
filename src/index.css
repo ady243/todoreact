@@ -76,6 +76,9 @@ input::placeholder {
   color: black;
   font-size: 30px;
 }
+input {
+  font-size: 30px;
+}
 
 .task-input {
   outline: none;

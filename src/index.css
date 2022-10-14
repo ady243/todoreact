@@ -13,7 +13,7 @@ body {
     #cfa473
   );
   background-size: 500% 400%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 3s ease infinite;
   height: 100vh;
 }
 

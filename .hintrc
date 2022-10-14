@@ -8,7 +8,8 @@
       "default",
       {
         "ignore": [
-          "position: sticky"
+          "position: sticky",
+          "text-justify"
         ]
       }
     ]
